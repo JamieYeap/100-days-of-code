@@ -1,3 +1,5 @@
+# To run the code, press cmd + shift + s and type $ python {filename}.py 
+
 #1. Create a greeting for your program.
 print("Your Band Name Generator")
 #2. Ask the user for the city that they grew up in.

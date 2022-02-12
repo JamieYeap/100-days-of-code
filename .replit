@@ -1,3 +1,3 @@
-run="python BMI-calculator.py"
+run="python day7/day7_hangman.py"
 language="python3"
 onBoot="echo Booting up!"

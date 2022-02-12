@@ -1,0 +1,3 @@
+run="python day8_encode-decode.py"
+language="python3"
+onBoot="echo Booting up!"

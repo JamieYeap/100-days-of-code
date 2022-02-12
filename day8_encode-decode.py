@@ -16,9 +16,9 @@ def encrypt(plain_text, shift_amount):
     print (f"The encoded text is {cipher_text}")
 
 # to decode 
-def decrypt (plain_text,shift_amount):
+def decrypt (cipher_text,shift_amount):
     real_text = ""
-    for letter in plain_text:
+    for letter in cipher_text:
         position = alphabet.index (letter)
         new_position = position - shift_amount
         real_text += alphabet[new_position] 
@@ -26,5 +26,5 @@ def decrypt (plain_text,shift_amount):
   
 if direction == "encode":
     encrypt (plain_text=text,shift_amount=shift)
-if direction == "decode":
-    decrypt (plain_text=text,shift_amount=shift)
+elif direction == "decode":
+    decrypt (cipher_text=text,shift_amount=shift)
